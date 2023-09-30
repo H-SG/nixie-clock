@@ -21,6 +21,18 @@ It's relatively straightforward.
 3. Do some fun dimming control
 4. Repeat
 
+I almost did some nasty stuff with pointers, and then decided I don't need that in my life. I might look at increasing PWM frequency for brightness control in future, but currently it works quite well.
+
 ## References
 I stand on the shoulders of others, here are all the references I used for this project:
-* 
+* [Dalibor's guidance on preventing cathode poisoning](https://www.manula.com/manuals/daliborfarny-com/nixie-tubes/1/en/topic/cathode-poisoning-prevention-routine)
+* [High side driving with optoisolators](https://www.microfarad.de/nixie-clock/#gallery-10)
+* [TLP627 datasheet](https://www.soemtron.org/downloads/disposals/tlp627.pdf)
+    * [Local supplier](https://www.mantech.co.za/ProductInfo.aspx?Item=35M5983)
+* [High side driving with MPSA92 & 42](https://reipooom.files.wordpress.com/2011/08/nixie-clock-from-jameco1.pdf)
+    * [More arguments about this](https://electronics.stackexchange.com/questions/331220/anode-driver-for-nixie-clock)
+* [Reference info on IN-17](https://www.swissnixie.com/tubes/IN17/)
+* [Shift registers on Arduino](https://docs.arduino.cc/tutorials/communication/guide-to-shift-out)
+* [Possible source for Soviet era 74141 drivers](https://tubehobby.com/show_det.php?det=35)
+    * These use 2.5mm pinspacing instead of 2.54mm (1mili)
+    * Modern sources are Integral from Belarus...
